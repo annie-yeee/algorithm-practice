@@ -10,7 +10,7 @@ public class MathEx_quiz {
                 System.out.print( ( i / 6 + 1 ) + "회" );
             }
 
-            int a = (int)( Math.random() * 45 ) + 1;
+            int a = (int)( Math.random() * 45 ) + 1; // 한 줄에 중복 가능 , 오름차순 X
             System.out.print( ( a < 10 ) ? "  " + a : " " + a );
 
             if ( i % 6 == 0 && i != 30 ) {
